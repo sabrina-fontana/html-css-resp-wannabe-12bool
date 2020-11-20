@@ -1,14 +1,10 @@
 div.container {
   text-align: center;
-  margin-top: 20px;
-}
-
-h1 {
-  padding: 15px 0;
+  padding-top: 20px;
 }
 
 div * {
-  padding: 10px;
+  padding: 15px;
 }
 
 #why img {
@@ -26,13 +22,13 @@ img {
 }
 
 /* MEDIA QUERY */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   h3 {
     font-size: 25px;
   }
 
   div * {
-    padding: 15px;
+    padding: 10px;
   }
 
   img {
@@ -43,16 +39,20 @@ img {
     height: 140px;
     padding: 12px;
   }
-}
 
+}
 
 @media screen and (max-width: 767px) {
   body {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 28px;
+  #steps {
+    background-color: rgba(119,197,251,0.1);
+  }
+
+  #why {
+  background-color: white;
   }
 
   img {
